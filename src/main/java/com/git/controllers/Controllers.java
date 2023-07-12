@@ -16,5 +16,10 @@ public class Controllers {
 	public String SRC() {
 		return "Thsi is src page";
 	}
+	@GetMapping("/abc")
+	public String ABC() {
+		return "Thsi is ABC page";
+	}
+
 
 }
