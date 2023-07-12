@@ -12,5 +12,9 @@ public class Controllers {
 	public String home() {
 		return "Thsi is home page";
 	}
+	@GetMapping("/src")
+	public String SRC() {
+		return "Thsi is src page";
+	}
 
 }
